@@ -10,4 +10,5 @@ Push your rivals out of the map to own them all!
 TODO
 ============
 
-Game README file should be elaborated.
+- Game README file should be elaborated.
+- Game scenario should be written.
