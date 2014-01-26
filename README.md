@@ -12,3 +12,4 @@ TODO
 
 - Game README file should be elaborated.
 - Game scenario should be written.
+- A test map should be created.
