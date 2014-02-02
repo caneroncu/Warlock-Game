@@ -12,6 +12,7 @@ public class Navigation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		nav.speed = 10;
 	}
 	
 	// Update is called once per frame
@@ -28,6 +29,10 @@ public class Navigation : MonoBehaviour {
 			}		
 		}
 		nav.destination = target.position;
+
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			nav.Warp(target.position);
+		}
 
 	}
 
