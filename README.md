@@ -1,18 +1,19 @@
 Warlock-Game
 ============
 
-A multiplayer "skillshot-based" fighting game that is based on <a href="http://www.hiveworkshop.com/forums/maps-564/warlock-1-00b-92687/" target="_blank">Warcraft's Warlock Map</a>
+<i>A hill can only have one king to rule them all! Eliminate your soon-to-be-dead-warlock rivals and be one!</i>
+
+Warlock-Game is a multiplayer "skillshot" fighting game that is based on <a href="http://www.hiveworkshop.com/forums/maps-564/warlock-1-00b-92687/" target="_blank">Warcraft's Warlock Map</a>
 
 <h2>What's its purpose?</h2>
 
-Push your rivals out of the map to own them all!
+Push your rivals out of the map and be the last-man-standing! Aka <i>KILL THEM ALL!</i>
 
-<h2>Game scenario</h2>
-A hill can only have one king to rule them all! Eliminate your soon-to-be-dead-warlock enemies and be one!
+******************
 
 <h2>General</h2>
 - Bounty: Killing a player who is in a killing spree, awards more gold (depends on the magnitude of killing spree)
-- Player is awarded "EWF" points after game (depending on the game stats), which he/she can spare on visual or game affecting customizations
+- Player is awarded "EWF" points after the game (depending on the game stats), which he/she can spare on visual or game affecting customizations
 
 <h2>Characters</h2>
 - Certain amount of health
@@ -49,6 +50,4 @@ A hill can only have one king to rule them all! Eliminate your soon-to-be-dead-w
 TODO
 ============
 
-- Game README file should be elaborated.
-- Game scenario should be written.
-- A test map should be created.
+- Game README file should be elaborated. (Well, should also be simplified in the same time)
