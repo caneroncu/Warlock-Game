@@ -12,7 +12,7 @@ public class Navigation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		nav.speed = 10;
+		nav.angularSpeed = 10;
 	}
 	
 	// Update is called once per frame
