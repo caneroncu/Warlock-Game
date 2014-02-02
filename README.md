@@ -8,7 +8,7 @@ A multiplayer "skillshot-based" fighting game that is based on <a href="http://w
 Push your rivals out of the map to own them all!
 
 <h2>Game scenario</h2>
-A hill can only have one king to rule them all! Eliminate your to-be-dead-soon-warlock enemies and be one!
+A hill can only have one king to rule them all! Eliminate your soon-to-be-dead-warlock enemies and be one!
 
 <h2>General</h2>
 - Bounty: Killing a player who is in a killing spree, awards more gold (depends on the magnitude of killing spree)
