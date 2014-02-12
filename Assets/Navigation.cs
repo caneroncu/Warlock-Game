@@ -10,16 +10,20 @@ public class Navigation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		nav.angularSpeed = 0; //To prevent the player from trying to turn around
-		nav.acceleration = 15; //Acceleration
-		nav.speed = 5; //Maximum speed
+		nav.angularSpeed = 500; 
+		nav.acceleration = 50; //Acceleration
+		nav.speed = 8; //Maximum speed
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		if (nav.speed < 12) {
-			nav.speed += 0.0005f; //For making it harder to control character as the game moves on
+		if (nav.speed < 10) {
+			nav.speed +=  0.005f/17.5f; //For making it harder to control character as the game moves on
+		}
+
+		if (nav.acceleration >= 15) {
+			nav.acceleration -= 0.005f; //For making it harder to control character as the game moves on
 		}
 
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition); 
