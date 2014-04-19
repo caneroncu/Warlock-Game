@@ -16,11 +16,11 @@ NavMeshLayers:
     cost: 2
     editType: 2
   User Layer 0:
-    name: 
+    name: Floor
     cost: 1
     editType: 3
   User Layer 1:
-    name: 
+    name: Lava
     cost: 1
     editType: 3
   User Layer 2:

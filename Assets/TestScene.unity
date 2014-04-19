@@ -156,7 +156,6 @@ GameObject:
   - 23: {fileID: 872522453}
   - 114: {fileID: 872522458}
   - 195: {fileID: 872522457}
-  - 114: {fileID: 872522459}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -192,7 +191,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 872522452}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -248,19 +247,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nav: {fileID: 872522457}
   target: {fileID: 2011690153}
---- !u!114 &872522459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 872522452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c867811c5c0512646a8bb75bcefee407, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nav: {fileID: 872522457}
-  target: {fileID: 2011690153}
+  names: 
+  names2: 
 --- !u!1 &1055499608
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,11 +402,11 @@ GameObject:
   - 33: {fileID: 1739583341}
   - 64: {fileID: 1739583340}
   - 23: {fileID: 1739583339}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TerrainMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 3
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &1739583339
@@ -449,7 +437,7 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1739583338}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
