@@ -21,7 +21,7 @@ NavMeshLayers:
     editType: 3
   User Layer 1:
     name: Lava
-    cost: 1
+    cost: 2
     editType: 3
   User Layer 2:
     name: 
