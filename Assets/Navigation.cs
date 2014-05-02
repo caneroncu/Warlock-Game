@@ -63,7 +63,7 @@ public class Navigation : MonoBehaviour {
 
 
 		if (Input.GetKeyDown (KeyCode.Space)) { //Fun shit. You be pressing...
-			nav.Warp(target.position); 			//...you be trippin
+			//nav.Warp(target.position); 			//...you be trippin
 		}
 	
 	}

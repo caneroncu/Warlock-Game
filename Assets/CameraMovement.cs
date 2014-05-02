@@ -6,10 +6,13 @@ public class CameraMovement : MonoBehaviour {
 	public float CamSpeed;
 	public int GUISize;
 
+	public float sinus;
+	public float cosinus;
+
 	// Use this for initialization
 	void Start () {
 		CamSpeed = 1.5f;
-		GUISize = 25;
+		GUISize = 20;
 	}
 	
 	// Update is called once per frame
@@ -36,5 +39,19 @@ public class CameraMovement : MonoBehaviour {
 			transform.Translate(CamSpeed, 0, 0, Space.World);
 		}
 
+		//Whenever the key is pressed down and HELD (Unlike "Input.GetKeyDown(KeyCode.Space)")
+		if (Input.GetKey (KeyCode.Space)) 
+		{
+			//Sinus and cosinus calculations of the camera angle
+			sinus = Mathf.Sin ((Mathf.PI / 180) * transform.eulerAngles.x);
+			cosinus = Mathf.Cos ((Mathf.PI / 180) * transform.eulerAngles.x);
+
+			GameObject player = GameObject.Find("Player");
+
+			//Used for determining the distance between camera and player on Z dimension
+			float cameraBias = transform.position.y / Mathf.Abs(sinus / cosinus);
+			transform.position = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z-cameraBias); 
+
+		}
 	}
 }
